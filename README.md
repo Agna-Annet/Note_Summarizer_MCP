@@ -42,14 +42,13 @@ python agent.py
 This project tracks a small set of logical versions. Update these entries as you make changes.
 
 - **v0.1.0 — Initial skeleton** (initial commit)
-	- Project skeleton and basic README created.
-	- Added `requirements.txt` and `md_files/` with sample notes.
-- **v0.2.0 — Agent and server**
-	- Added `agent.py` and `mcp_server.py` to provide a runnable agent and a server entrypoint.
-- **v0.3.0 — Content and docs**
-	- Added sample Markdown notes under `md_files/` and improved README with quick-start and usage instructions.
+	- Only one markdown file to be accessed.
+	- LLM generates summary based on it.
+- **v0.2.0 — Multiple File Selection**
+	- Added multiple markdown files among which user can choose from.
+- **v0.3.0 — Multiple MCP Servers**
+	- Added two more mcp tools - thus doing 3 functions in total - summarize, count words, extract headings.
 
-If you'd like a different versioning style (semantic tags, Git tags, or a CHANGELOG.md), I can add that.
 
 **Contributing**
 
