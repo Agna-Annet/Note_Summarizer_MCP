@@ -49,6 +49,7 @@ async def main():
 
                 if ch not in [1,2,3]:
                     break
+                
 
                 print("\nSelect from available notes: \n1. ai.md \n2. ml.md \n3. neural_networks.d \n4. python.md \n")
                 filename=input("Enter note name (exactly as given):")
